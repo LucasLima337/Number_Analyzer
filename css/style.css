@@ -1,0 +1,93 @@
+body {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20pt;
+    background-color: rgb(103, 172, 89);
+    margin: 0;
+}
+#container, section {
+    margin: auto;
+    width: 1000px;
+}
+h1, footer {
+    text-align: center;
+}
+h1 {
+    color:rgb(221, 253, 39);
+}
+section {
+    background-color: rgb(116, 202, 142);
+    border-radius: 20px;
+    padding: 15px;
+    font-weight: bold;
+}
+#div1 {
+    display: flex;
+    font-size: 25pt;
+    margin-top: -20px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#div1 p {
+    color: rgb(37, 87, 24);
+}
+#num {
+    width: 80px;
+    height: 50px;
+    font-size: 20pt;
+    border: none;
+    border-radius: 10px;
+}
+#calc, #but {
+    background-color: rgb(103, 172, 89);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    font-size: 15pt;
+    margin-left: 80px;
+    height: 40px;
+}
+#calc:hover, #but:hover {
+    background-color: rgb(84, 196, 51);
+    transition: 300ms;
+}
+#div2 {
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 20px;
+}
+#but {
+    display: block;
+    margin: auto;
+}
+#resp {
+    margin: auto;
+    background-color: rgb(37, 66, 49);
+    color: white;
+    border-radius: 20px;
+    width: 400px;
+}
+footer {
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 455px;
+    font-weight: bold;
+    background-color: black;
+    width: 120px;
+    padding: 5px;
+    border-radius: 10px;
+}
+footer a {
+    text-decoration: none;
+    color: #f2a900;
+    margin-left: -10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
