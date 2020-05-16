@@ -15,10 +15,12 @@ let maior = 0
 
 // Settings do primeiro botão
 function clicar(){
+    txt1.focus()
     txt3.innerHTML = ''
     txt3.style.marginTop = ''
     txt3.style.padding = ''
     verif(txt1.value)
+    txt1.value = ''
 }
 function verif(campo){
     if(campo == ''){
