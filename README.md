@@ -1,4 +1,4 @@
 # Number_Analyzer
- Programa feito com a linguagem Javascript para analisar vários números adicionados pelo usuário.
+ Program created using Javascript language to analyze several numbers added by the user.
  
- * Site [aqui](https://lucaslima337.github.io/Number_Analyzer/)
+ * Web Site [here](https://lucaslima337.github.io/Number_Analyzer/)
